@@ -10,5 +10,6 @@ local function onTouch(otherPart)
 
     if humanoid then
         humanoid.Health = 0
+    end
 end
 trapPart.Touched:Connect(onTouch)
